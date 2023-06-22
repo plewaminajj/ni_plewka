@@ -1,6 +1,6 @@
 ﻿namespace src
 {
-    public class Math : IMath
+    public class MathService : IMath
     {
         public int Add(int x, int y)
         {
