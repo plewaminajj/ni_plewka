@@ -6,7 +6,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Math app!");
         using IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
